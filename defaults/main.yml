@@ -2,6 +2,9 @@
 # Set the version of Node.js to install (e.g. "0.10", "0.12", "4.x", "5.x").
 nodejs_version: "4.x"
 
+# nodejs_install_npm_user: username
+nodejs_install_npm_user: username
+
 # Install forever, which is useful for running Node.js apps.
 nodejs_forever: true
 
