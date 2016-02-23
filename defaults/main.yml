@@ -3,7 +3,7 @@
 nodejs_version: "4.x"
 
 # nodejs_install_npm_user: username
-nodejs_install_npm_user: username
+
 
 # Install forever, which is useful for running Node.js apps.
 nodejs_forever: true
