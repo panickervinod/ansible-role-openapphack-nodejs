@@ -2,8 +2,8 @@
 # Set the version of Node.js to install (e.g. "0.10", "0.12", "4.x", "5.x").
 nodejs_version: "4.x"
 
-# nodejs_install_npm_user: username
-
+# The user for whom the npm packages will be installed
+nodejs_install_npm_user: "{{ ansible_ssh_user }}"
 
 # Install forever, which is useful for running Node.js apps.
 nodejs_forever: true
